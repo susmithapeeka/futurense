@@ -1,0 +1,16 @@
+hospitals
+government_hospital3
+demo3
+housing_clean2
+
+
+select StateorUT gh, sum gh, new_hospital h from hospitals h join government_hospital2
+on StateorUT gh=StateorUT h
+
+
+Notes
+
+q11 - all_hospitals.csv
+q6- census.csv
+q7-housing.csv
+q14
